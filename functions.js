@@ -1,9 +1,13 @@
 //Write a function called 'welcome' that takes in a name (say Tyler), and then returns 'Welcome, Tyler' (or whatever the name was).
 
   //Function definition here
+  var welcome = function(name){
+    return "welcome, " + name;
+  }
 
 
   //Call the function here
+  welcome('tyler');
 
 
 /* NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM */
@@ -14,9 +18,12 @@
 
   //Function definition here
 
-
+var multiply = function(x,y){
+  return x * y;
   //Call the function here
+}
 
+multiply(4,5);
 
 
 /* NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM */
@@ -33,7 +40,21 @@
     obj.evens ----> [2,4,6];
     obj.odds ----> [1,3,5]
 */
-  
+var object{
+  odds:,
+  evens:
+};
+
+  var dice = function(arr){
+    for(i = 0; i < arr.length; i++){
+      if(arr[i] % 2 === 0){
+        object.evens= arr[i];
+      }
+      else{
+        object.odds = arr[i];
+      }
+    }
+  }
   
 
 /* we have an i5 processor and are currious as to what cores are needed when we are playing Minecraft.
